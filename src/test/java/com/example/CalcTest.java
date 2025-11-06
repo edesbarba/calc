@@ -13,4 +13,5 @@ class CalcTest {
     @Test void dividir_porZero_erro() {
         assertThrows(IllegalArgumentException.class, () -> calc.dividir(5,0));
     }
+    
 }
